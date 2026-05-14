@@ -2,10 +2,10 @@
   "name": "Out of Credits Apps",
   "subtitle": "Sports streams. No ads. Your way.",
   "description": "Home of StreamCenter — a free, open sports streaming app that lets you watch live games from any source you choose. Add your own stream sites, favorite your teams and leagues, and enjoy completely ad-free playback. No subscriptions, no popups, no nonsense.",
-  "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
-  "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
+  "iconURL": "https://shanegillio.github.io/altstore-source/images/icon.png",
+  "headerURL": "https://shanegillio.github.io/altstore-source/images/header.png",
   "website": "https://shanegillio.github.io/altstore-source",
-  "tintColor": "#1A6FA0",
+  "tintColor": "#E03030",
   "featuredApps": [
     "app.bitrig.new.b3037d94-1a52-4185-b143-1daa8fdcafe1"
   ],
@@ -16,11 +16,12 @@
       "developerName": "Out of Credits",
       "subtitle": "Live sports streams, zero ads.",
       "localizedDescription": "StreamCenter is your all-in-one hub for live sports streaming.\n\nWatch NFL, NBA, MLB, NHL, soccer, MMA, boxing, and more — pulled straight from the web, with no ads interrupting the action.\n\n• Add any sports streaming site as a custom source\n• Browse live and upcoming games across every league\n• Favorite your teams and leagues for instant access\n• Ad-free playback powered by a built-in content blocker\n• Supports m3u8 and DASH streams with native AVPlayer quality\n• No account required. No subscription. Completely free.",
-      "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/FishApp.png",
-      "tintColor": "#1A6FA0",
+      "iconURL": "https://shanegillio.github.io/altstore-source/images/icon.png",
+      "tintColor": "#E03030",
       "screenshots": [
-        "https://example.com/streamcenter_screenshot1.png",
-        "https://example.com/streamcenter_screenshot2.png"
+        "https://shanegillio.github.io/altstore-source/images/screenshot_live.png",
+        "https://shanegillio.github.io/altstore-source/images/screenshot_leagues.png",
+        "https://shanegillio.github.io/altstore-source/images/screenshot_games.png"
       ],
       "versions": [
         {
@@ -49,7 +50,7 @@
       "identifier": "streamcenter_launch",
       "caption": "Watch live sports from any source — completely ad-free.",
       "date": "2026-05-14",
-      "tintColor": "#1A6FA0",
+      "tintColor": "#E03030",
       "notify": true,
       "appID": "app.bitrig.new.b3037d94-1a52-4185-b143-1daa8fdcafe1"
     }
