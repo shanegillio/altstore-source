@@ -1,32 +1,26 @@
 {
   "name": "Out of Credits Apps",
-  "subtitle": "All my apps in one place.",
-  "description": "Welcome to my source! Here you'll find all of my apps.",
+  "subtitle": "Sports streams. No ads. Your way.",
+  "description": "Home of StreamCenter — a free, open sports streaming app that lets you watch live games from any source you choose. Add your own stream sites, favorite your teams and leagues, and enjoy completely ad-free playback. No subscriptions, no popups, no nonsense.",
   "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
   "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
-  "website": "https://example.com",
-  "tintColor": "#4185A9",
+  "website": "https://shanegillio.github.io/altstore-source",
+  "tintColor": "#1A6FA0",
   "featuredApps": [
-    "com.example.myapp",
-    "com.example.anotherapp"
+    "app.bitrig.new.b3037d94-1a52-4185-b143-1daa8fdcafe1"
   ],
   "apps": [
     {
       "name": "StreamCenter",
       "bundleIdentifier": "app.bitrig.new.b3037d94-1a52-4185-b143-1daa8fdcafe1",
-      "developerName": "Example Developer",
-      "subtitle": "An awesome app.",
-      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "developerName": "Out of Credits",
+      "subtitle": "Live sports streams, zero ads.",
+      "localizedDescription": "StreamCenter is your all-in-one hub for live sports streaming.\n\nWatch NFL, NBA, MLB, NHL, soccer, MMA, boxing, and more — pulled straight from the web, with no ads interrupting the action.\n\n• Add any sports streaming site as a custom source\n• Browse live and upcoming games across every league\n• Favorite your teams and leagues for instant access\n• Ad-free playback powered by a built-in content blocker\n• Supports m3u8 and DASH streams with native AVPlayer quality\n• No account required. No subscription. Completely free.",
       "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/FishApp.png",
-      "tintColor": "#5CA399",
+      "tintColor": "#1A6FA0",
       "screenshots": [
-        "https://example.com/myapp_portrait_screenshot1.png",
-        "https://example.com/myapp_portrait_screenshot2.png",
-        {
-          "imageURL": "https://example.com/myapp_landscape_screenshot.png",
-          "width": 2556,
-          "height": 1179
-        }
+        "https://example.com/streamcenter_screenshot1.png",
+        "https://example.com/streamcenter_screenshot2.png"
       ],
       "versions": [
         {
@@ -51,24 +45,13 @@
   ],
   "news": [
     {
-      "title": "New Feature Announcement",
-      "identifier": "new_feature",
-      "caption": "Introducing a new feature in AltStore!",
-      "date": "2023-03-15",
-      "tintColor": "#5CA399",
-      "imageURL": "https://example.com/new_feature_image.png",
+      "title": "StreamCenter is here!",
+      "identifier": "streamcenter_launch",
+      "caption": "Watch live sports from any source — completely ad-free.",
+      "date": "2026-05-14",
+      "tintColor": "#1A6FA0",
       "notify": true,
-      "url": "https://example.com/new_feature_details"
-    },
-    {
-      "title": "App Update Available",
-      "identifier": "app_update",
-      "caption": "An update is available for My Example App.",
-      "date": "2023-03-10T10:00:00-07:00",
-      "tintColor": "#3660A2",
-      "imageURL": "https://example.com/app_update_image.png",
-      "notify": false,
-      "appID": "com.example.myapp"
+      "appID": "app.bitrig.new.b3037d94-1a52-4185-b143-1daa8fdcafe1"
     }
   ]
 }
