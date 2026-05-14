@@ -33,7 +33,7 @@
           "version": "1.0",
           "date": "2026-05-14",
           "size": 775059,
-          "downloadURL": "https://example.com/myapp_v1.0.ipa",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.0/StreamCenter-1.0.ipa",
           "localizedDescription": "Initial release.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
