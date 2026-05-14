@@ -30,11 +30,11 @@
       ],
       "versions": [
         {
-          "version": "1.0",
+          "version": "1.1",
           "date": "2026-05-14",
-          "size": 775059,
-          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.0/StreamCenter-1.0.ipa",
-          "localizedDescription": "Initial release.",
+          "size": 413898,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.1/StreamCenter-1.1.ipa",
+          "localizedDescription": "Latest build.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         }
