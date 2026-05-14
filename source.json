@@ -12,8 +12,8 @@
   ],
   "apps": [
     {
-      "name": "LiveFeed",
-      "bundleIdentifier": "app.bitrig.new.9ac65b0f-39a6-41a6-bee7-2cfc588bfe49",
+      "name": "StreamCenter",
+      "bundleIdentifier": "app.bitrig.new.b3037d94-1a52-4185-b143-1daa8fdcafe1",
       "developerName": "Example Developer",
       "subtitle": "An awesome app.",
       "localizedDescription": "This is an awesome app only available on AltStore.",
@@ -30,11 +30,11 @@
       ],
       "versions": [
         {
-          "version": "1.1",
+          "version": "1.0",
           "date": "2026-05-14",
           "size": 413898,
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.1/StreamCenter-1.1.ipa",
-          "localizedDescription": "Latest build.",
+          "localizedDescription": "Initial release.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         }
