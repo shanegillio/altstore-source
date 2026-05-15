@@ -27,9 +27,9 @@
         {
           "version": "1.0",
           "date": "2026-05-15",
-          "size": 610723,
+          "size": 614568,
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.0/StreamCenter-1.0.ipa",
-          "localizedDescription": "ESPN-powered enrichment: accurate game times, live scores, innings/quarters/periods. Always checks section pages for the full set of leagues (not just homepage features). URL-first team parsing keeps team names clean. League logos prefetched at launch. Title display unified across tabs. Apple Foundation Models (iOS 26+) with rule-based fallback. No default sources — add your own.",
+          "localizedDescription": "Date-aware ESPN matching: today's scraped games stay today (no more swaps to tomorrow's matchup). Proactive section-page probes /live/{league}, /{league}, /sports/{league} so games only listed on section pages (like missing NBA matchups) get discovered. Apple Foundation Models (iOS 26+) with rule-based fallback. No default sources — add your own.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         }
