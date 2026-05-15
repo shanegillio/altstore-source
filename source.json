@@ -27,9 +27,9 @@
         {
           "version": "1.0",
           "date": "2026-05-15",
-          "size": 407686,
-          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.4/StreamCenter-1.4.ipa",
-          "localizedDescription": "Streams tab now shows live and upcoming games together. Favorites sort to the top with a gold star indicator. Past games are filtered out. Time labels no longer bleed into team names.",
+          "size": 407690,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.5/StreamCenter-1.5.ipa",
+          "localizedDescription": "Bottom tab navigation restored (Streams / Leagues / Settings). Favorites sort to the top with a gold star. All upcoming and live games shown together.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         }
