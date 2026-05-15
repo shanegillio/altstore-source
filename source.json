@@ -25,12 +25,12 @@
       ],
       "versions": [
         {
-          "version": "1.0",
+          "version": "2.1",
           "date": "2026-05-15",
-          "size": 417557,
-          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.0/StreamCenter-2.0.ipa",
-          "localizedDescription": "AI-powered game detection via Apple Foundation Models — no API key needed. Rule-based fallback for all sources. Cricket and Rugby leagues. No default sources — add your own streaming sites.",
-          "buildVersion": "1",
+          "size": 483238,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.1/StreamCenter-2.0.ipa",
+          "localizedDescription": "Improved scraping for ppv.to, buffstreams, and more sites. Apple Foundation Models integration (iOS 26+) with rule-based fallback. No default sources — add your own. UI polish: large Settings title, flat games list.",
+          "buildVersion": "2",
           "minOSVersion": "17.0"
         }
       ],
