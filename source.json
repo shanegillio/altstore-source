@@ -25,19 +25,10 @@
       ],
       "versions": [
         {
-          "version": "1.2",
+          "version": "1.0",
           "date": "2026-05-15",
           "size": 443549,
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.2/StreamCenter-1.2.ipa",
-          "localizedDescription": "On-device AI game detection using Apple's Foundation Models (iOS 26+). No API key or internet connection needed — the model runs entirely on your device. Detects games from any sport including cricket, rugby, and more. Also fixes cross-sport contamination on streaming sites.",
-          "buildVersion": "2",
-          "minOSVersion": "17.0"
-        },
-        {
-          "version": "1.0",
-          "date": "2026-05-15",
-          "size": 436175,
-          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.1/StreamCenter-1.1.ipa",
           "localizedDescription": "Initial release.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
