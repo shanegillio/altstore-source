@@ -27,9 +27,9 @@
         {
           "version": "1.0",
           "date": "2026-05-15",
-          "size": 575908,
+          "size": 585723,
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.0/StreamCenter-1.0.ipa",
-          "localizedDescription": "Streams tab shows live and upcoming games across all your sources. Improved scraping detects ppv.to, buffstreams, and more sites automatically. Apple Foundation Models (iOS 26+) with rule-based fallback. No default sources — add your own.",
+          "localizedDescription": "Smarter scraping: ppv.to, buffstreams (including international events like IIHF), and more sites. Better game-time parsing — no more 'Time TBD'. League logos persist across tab switches. New 'Other' category catches unrecognised sports. Apple Foundation Models (iOS 26+) with rule-based fallback. No default sources — add your own.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         }
