@@ -27,9 +27,9 @@
         {
           "version": "1.0",
           "date": "2026-05-15",
-          "size": 407684,
-          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.6/StreamCenter-1.6.ipa",
-          "localizedDescription": "Restored correct layout: league badge outside card on left, bottom tab navigation, favorites sort to top with gold star indicator.",
+          "size": 426992,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.7/StreamCenter-1.7.ipa",
+          "localizedDescription": "Stream source selector moved to Settings. Streams tab rows no longer show double chevron. Favorites sub-items renamed to Sports, Leagues, Teams.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         }
