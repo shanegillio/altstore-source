@@ -1,7 +1,7 @@
 {
   "name": "Out of Credits Apps",
   "subtitle": "Sports streams. No ads. Your way.",
-  "description": "Home of StreamCenter — a free, open sports streaming app that lets you watch live games from any source you choose. Add your own stream sites, favorite your teams and leagues, and enjoy completely ad-free playback. No subscriptions, no popups, no nonsense.",
+  "description": "Home of StreamCenter \u2014 a free, open sports streaming app that lets you watch live games from any source you choose. Add your own stream sites, favorite your teams and leagues, and enjoy completely ad-free playback. No subscriptions, no popups, no nonsense.",
   "iconURL": "https://shanegillio.github.io/altstore-source/images/icon.png",
   "headerURL": "https://shanegillio.github.io/altstore-source/images/header.png",
   "website": "https://shanegillio.github.io/altstore-source",
@@ -15,7 +15,7 @@
       "bundleIdentifier": "app.bitrig.new.b3037d94-1a52-4185-b143-1daa8fdcafe1",
       "developerName": "Out of Credits",
       "subtitle": "Live sports streams, zero ads.",
-      "localizedDescription": "StreamCenter is your all-in-one hub for live sports streaming.\n\nWatch NFL, NBA, MLB, NHL, soccer, MMA, boxing, and more — pulled straight from the web, with no ads interrupting the action.\n\n• Add any sports streaming site as a custom source\n• Browse live and upcoming games across every league\n• Favorite your teams and leagues for instant access\n• Ad-free playback powered by a built-in content blocker\n• Supports m3u8 and DASH streams with native AVPlayer quality\n• No account required. No subscription. Completely free.",
+      "localizedDescription": "StreamCenter is your all-in-one hub for live sports streaming.\n\nWatch NFL, NBA, MLB, NHL, soccer, MMA, boxing, and more \u2014 pulled straight from the web, with no ads interrupting the action.\n\n\u2022 Add any sports streaming site as a custom source\n\u2022 Browse live and upcoming games across every league\n\u2022 Favorite your teams and leagues for instant access\n\u2022 Ad-free playback powered by a built-in content blocker\n\u2022 Supports m3u8 and DASH streams with native AVPlayer quality\n\u2022 No account required. No subscription. Completely free.",
       "iconURL": "https://shanegillio.github.io/altstore-source/images/icon.png",
       "tintColor": "#E03030",
       "screenshots": [
@@ -27,9 +27,9 @@
         {
           "version": "1.0",
           "date": "2026-05-15",
-          "size": 413921,
-          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.3/StreamCenter-1.3.ipa",
-          "localizedDescription": "Bug fixes: time strings no longer appear in team or event names, past games are filtered from the upcoming list, and live games load reliably without flickering.",
+          "size": 407686,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.4/StreamCenter-1.4.ipa",
+          "localizedDescription": "Streams tab now shows live and upcoming games together. Favorites sort to the top with a gold star indicator. Past games are filtered out. Time labels no longer bleed into team names.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         }
@@ -48,7 +48,7 @@
     {
       "title": "StreamCenter is here!",
       "identifier": "streamcenter_launch",
-      "caption": "Watch live sports from any source — completely ad-free.",
+      "caption": "Watch live sports from any source \u2014 completely ad-free.",
       "date": "2026-05-14",
       "tintColor": "#E03030",
       "notify": true,
