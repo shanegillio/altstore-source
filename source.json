@@ -27,7 +27,7 @@
         {
           "version": "1.0",
           "date": "2026-05-15",
-          "size": 426992,
+          "size": 426991,
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.7/StreamCenter-1.7.ipa",
           "localizedDescription": "Stream source selector moved to Settings. Streams tab rows no longer show double chevron. Favorites sub-items renamed to Sports, Leagues, Teams.",
           "buildVersion": "1",
