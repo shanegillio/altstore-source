@@ -27,9 +27,9 @@
         {
           "version": "1.0",
           "date": "2026-05-15",
-          "size": 443549,
-          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.2/StreamCenter-1.2.ipa",
-          "localizedDescription": "Initial release.",
+          "size": 413921,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.3/StreamCenter-1.3.ipa",
+          "localizedDescription": "Bug fixes: time strings no longer appear in team or event names, past games are filtered from the upcoming list, and live games load reliably without flickering.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         }
