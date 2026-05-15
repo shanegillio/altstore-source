@@ -27,9 +27,9 @@
         {
           "version": "1.0",
           "date": "2026-05-15",
-          "size": 483238,
-          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.1/StreamCenter-2.0.ipa",
-          "localizedDescription": "Improved scraping for ppv.to, buffstreams, and more sites. Apple Foundation Models integration (iOS 26+) with rule-based fallback. No default sources — add your own. UI polish: large Settings title, flat games list.",
+          "size": 575908,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.0/StreamCenter-1.0.ipa",
+          "localizedDescription": "Streams tab shows live and upcoming games across all your sources. Improved scraping detects ppv.to, buffstreams, and more sites automatically. Apple Foundation Models (iOS 26+) with rule-based fallback. No default sources — add your own.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         }
