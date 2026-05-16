@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.5",
+          "date": "2026-05-16",
+          "size": 686562,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.5/StreamCenter-2.5.ipa",
+          "localizedDescription": "Unified single-tab UI. Streams and Leagues are merged into one home page; bottom tab bar removed. A horizontal row of circular chips below the title filters the stream list (All first, then one chip per league in the existing popularity order). Settings is now a gear icon in the top-right. Long-press a chip to favorite the league.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.4",
           "date": "2026-05-16",
           "size": 764909,
