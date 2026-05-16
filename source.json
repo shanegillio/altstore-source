@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.4",
+          "date": "2026-05-16",
+          "size": 764909,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.4/StreamCenter-2.4.ipa",
+          "localizedDescription": "Diagnose typo'd / parked-domain sources. WebViewScraper now captures the page title (rendered in Source Diagnostics), and fetchAvailableLeagues bails fast when the title matches known parking templates (Redirecting\u2026, Rebrandly, ParkLogic, HugeDomains, Sedo, GoDaddy, \"is for sale\", \"Branded Short Domain\"). Catches typo'd hostnames like buffstreans.plus \u2192 buffstreams.plus. Foundation Models also receives the page title as additional classification context.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.3",
           "date": "2026-05-16",
           "size": 759212,
