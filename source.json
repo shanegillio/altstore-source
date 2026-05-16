@@ -27,9 +27,9 @@
         {
           "version": "1.0",
           "date": "2026-05-15",
-          "size": 700159,
+          "size": 732891,
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.0/StreamCenter-1.0.ipa",
-          "localizedDescription": "Generic JSON-API discovery: any source you add is probed for common API endpoints with no site-specific code. Discovered games are parsed via a pluggable shape registry and feed a runtime sports knowledge base — canonical team names and category-to-league pairings learned from one source improve classification across all sources. ppv.to surfaces 114 games across 11 sports via API; other sites fall through to WebView scraping as before. Settings → Source Diagnostics shows raw scrape output. Apple Foundation Models (iOS 26+) with rule-based fallback. No default sources — add your own.",
+          "localizedDescription": "Logo loading: LogoPrefetcher proactively populates URLCache with every team's PNG as soon as games are fetched, so AsyncImage hits cache instantly when the Streams tab renders. New Settings → Diagnostics → Logo Loading section shows per-team resolve/fetch timings with cache-hit / network / failed badges. Fixed duplicate 'LIVE LIVE' badge. Plus the previous generic API discovery + sports knowledge base. Apple Foundation Models (iOS 26+) with rule-based fallback. No default sources — add your own.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         }
