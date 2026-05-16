@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.6",
+          "date": "2026-05-16",
+          "size": 698666,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.6/StreamCenter-2.6.ipa",
+          "localizedDescription": "Classified empty states. Sources that can't surface leagues now tell you why: Blocked by Cloudflare (1015 / WAF), Domain has been redirected (MPAA takedown via alliance4creativity.com), This domain has no streams (parking \u2014 Rebrandly / ParkLogic / HugeDomains / Sedo / GoDaddy), No leagues detected (site loaded fine), or Can't reach this site. Scraping resilience: shared WKProcessPool + persistent cookie store so cf_clearance carries across scrapes, didCommit title capture so ParkLogic-style document.body wipes don't lose the signal, Cloudflare challenge wait-loop, force-extract on timeout. Page title and meta description now visible in Source Diagnostics.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.5",
           "date": "2026-05-16",
           "size": 686562,
