@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.1",
+          "date": "2026-05-16",
+          "size": 756489,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.1/StreamCenter-2.1.ipa",
+          "localizedDescription": "Fix \"no leagues detected\" on sites whose homepage exposes no classifiable league anchors (e.g. ntv.sh). fetchAvailableLeagues now proactively probes /live/{slug}, /{slug}, /sports/{slug} for every supported league in parallel with homepage-hinted probes. Tighter section-page verification prevents mixed \"live now\" pages from falsely confirming leagues.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.0",
           "date": "2026-05-15",
           "size": 747962,
