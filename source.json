@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.3",
+          "date": "2026-05-16",
+          "size": 759212,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.3/StreamCenter-2.3.ipa",
+          "localizedDescription": "Fix \"no leagues detected\" on NTVSTREAM-style sites (ntv.cx). Added /api/get-matches to APIDiscovery's candidate paths and a new shape parser for the {success, all/live/upcoming: [...]} response format used by NTVSTREAM and similar Vue/Nuxt SPAs. Fixed epoch-millisecond date parsing (auto-detects 13-digit timestamps) and honors explicit live booleans from API responses. Watch URLs are reconstructed as /watch/{source}/{id} matching the front-end pattern.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.2",
           "date": "2026-05-16",
           "size": 758279,
