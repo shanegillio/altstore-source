@@ -27,9 +27,9 @@
         {
           "version": "1.0",
           "date": "2026-05-15",
-          "size": 732655,
+          "size": 734191,
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.0/StreamCenter-1.0.ipa",
-          "localizedDescription": "LogoPrefetcher now uses ESPN team-search fallback \u2014 184 of 207 ppv.to teams resolve & prefetch in ~830ms (was 27). Soccer clubs, AFL teams, niche-league teams all benefit. Settings \u2192 Diagnostics \u2192 Logo Loading shows per-team timings. Plus generic API discovery & sports knowledge base from prior versions. No default sources \u2014 add your own.",
+          "localizedDescription": "Three logo bugs fixed: (1) word-boundary match \u2014 Birmingham Stallions no longer renders as Detroit Lions, (2) UFL/CFL/XFL no longer mis-classified as NFL, (3) TeamLogoStore persists across launches so logos appear instantly on every relaunch. Plus generic API discovery, sports knowledge base, LogoPrefetcher with ESPN fallback. No default sources \u2014 add your own.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         }
