@@ -27,9 +27,9 @@
         {
           "version": "1.0",
           "date": "2026-05-15",
-          "size": 623010,
+          "size": 669119,
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.0/StreamCenter-1.0.ipa",
-          "localizedDescription": "Shared game cache: tapping a league tile shows games instantly (no re-scrape). Strict league filtering on section probes — no more NASCAR/IIHF/WWE leaking into the NBA tab. ESPN-aware league detection via team-name reverse lookup catches games whose URL lacks a league keyword. 'LIVE NOW' bar removed from league detail. Apple Foundation Models (iOS 26+) with rule-based fallback. No default sources — add your own.",
+          "localizedDescription": "Settings → Source Diagnostics shows the raw scraper output (link list, finish reason, duration, JS/nav errors) so you can see exactly what each source serves the app. Phantom league tiles eliminated — leagues only appear when at least one game loads. Desktop Safari User-Agent for friendlier Cloudflare treatment. Apple Foundation Models (iOS 26+) with rule-based fallback. No default sources — add your own.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         }
