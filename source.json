@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.7",
+          "date": "2026-05-16",
+          "size": 701604,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.7/StreamCenter-2.7.ipa",
+          "localizedDescription": "Three fixes. (1) Cloudflare auto-retry: when the first scrape classifies as cloudflareBlocked, silently retry twice with 3s then 6s backoff before showing the empty state \u2014 the shared cookie jar from v2.6 means cf_clearance set by the failed attempt usually unblocks the retry. (2) WNBA no longer flashes as NBA: detectLeague Pass 1 now picks the longest matching keyword, so \"wnba\" beats \"nba\" for /wnba/ URLs. (3) MLS, Liga MX, Ligue 1, Eredivisie, Champions League, Europa League added as first-class SportLeague cases with proper chips, logos, accent colors, and ESPN scoreboard endpoints.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.6",
           "date": "2026-05-16",
           "size": 698666,
