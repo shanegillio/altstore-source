@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.2",
+          "date": "2026-05-16",
+          "size": 758279,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.2/StreamCenter-2.2.ipa",
+          "localizedDescription": "Diagnose ntv.sh-style \"no leagues detected\": (1) Parked-domain fast-fail \u2014 homepages whose links all go off-domain (Rebrandly broken-links, GoDaddy parking) now bail out immediately instead of running a multi-minute probe sweep. (2) Parallel probing \u2014 ESPN pre-warm, Foundation Models, and proactive section probing run concurrently, so a slow/hung iOS 26 LLM call no longer blocks the probes. (3) 10s timeout on Foundation Models. (4) FM results union with rule-based + proactive rather than short-circuiting.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.1",
           "date": "2026-05-16",
           "size": 756489,
