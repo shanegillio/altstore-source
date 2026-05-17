@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.10",
+          "date": "2026-05-16",
+          "size": 714808,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.10/StreamCenter-2.10.ipa",
+          "localizedDescription": "Block ad-redirect hijacks in the scraper. Sites whose JS fires location.href to ad hosts (devylora.com, alert.persona..., shieldedsurf...) after first paint can no longer drag the WKWebView away from the real streaming page. Two defenses: (1) AdBlockRules' comprehensive content rule list is now attached to the scraper's WKWebView so ad-network sub-resources are denied at the URL loader. (2) New cross-origin top-level navigation block in decidePolicyFor \u2014 main-frame navigations are allowed only to the same registrable domain (after stripping www.). sportyhunter.space, which has real NHL / AHL / VHL playoff streams, should now surface them.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.9",
           "date": "2026-05-16",
           "size": 710995,
