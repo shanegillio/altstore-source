@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.26",
+          "date": "2026-05-17",
+          "size": 868716,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.26/StreamCenter-2.26.ipa",
+          "localizedDescription": "Visual cleanup. Sport icons are colourful emojis instead of monochrome SF Symbols. Boxing/F1/NASCAR/Cricket entries with no team logos no longer show the league badge twice.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.25",
           "date": "2026-05-17",
           "size": 869702,
