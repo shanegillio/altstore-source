@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.24",
+          "date": "2026-05-17",
+          "size": 869324,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.24/StreamCenter-2.24.ipa",
+          "localizedDescription": "Multi-source on-tap stream resolution with per-source retry UI. PlayerView now walks every aggregator in a game streamURLs pool sequentially with a 10-second per-source budget, surfacing Finding stream from {Source} ({i} of {n}). First success wins; if every candidate fails the retry UI lists each attempt with options to try again or browse manually. Builds on v2.23 ESPN-first architecture.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.23",
           "date": "2026-05-17",
           "size": 845477,
