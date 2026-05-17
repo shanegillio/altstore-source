@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.12",
+          "date": "2026-05-16",
+          "size": 731998,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.12/StreamCenter-2.12.ipa",
+          "localizedDescription": "Stronger team->league lookup + chip filter + sport-name junk filter + parked copy. detectLeague now consults the static team-name table BEFORE the generic sport-name fallback (Atlanta Dream -> WNBA beats Basketball -> NBA), and when a generic match does win, an ESPN override pass checks ESPNScoreboardService.leagueForTeam (catches MLS / Premier League / La Liga / etc. teams not in our static DB). Chip row computed purely from games-with-data, sorted by popularity rank, so stale availableLeagues no longer hides leagues whose games rendered. New isJustASportName filter drops bare nav anchors (Basketball, Soccer, American Football, etc.) from all three game-construction paths. Added 30 MLS clubs to the static team DB. Parked empty-state copy trimmed.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.11",
           "date": "2026-05-16",
           "size": 716890,
