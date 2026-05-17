@@ -1,7 +1,7 @@
 {
   "name": "Out of Credits Apps",
   "subtitle": "Sports streams. No ads. Your way.",
-  "description": "Home of StreamCenter \u2014 a free, open sports streaming app that lets you watch live games from any source you choose. Add your own stream sites, favorite your teams and leagues, and enjoy completely ad-free playback. No subscriptions, no popups, no nonsense.",
+  "description": "Home of StreamCenter — a free, open sports streaming app that lets you watch live games from any source you choose. Add your own stream sites, favorite your teams and leagues, and enjoy completely ad-free playback. No subscriptions, no popups, no nonsense.",
   "iconURL": "https://shanegillio.github.io/altstore-source/images/icon.png",
   "headerURL": "https://shanegillio.github.io/altstore-source/images/header.png",
   "website": "https://shanegillio.github.io/altstore-source",
@@ -15,7 +15,7 @@
       "bundleIdentifier": "app.bitrig.new.b3037d94-1a52-4185-b143-1daa8fdcafe1",
       "developerName": "Out of Credits",
       "subtitle": "Live sports streams, zero ads.",
-      "localizedDescription": "StreamCenter is your all-in-one hub for live sports streaming.\n\nWatch NFL, NBA, MLB, NHL, soccer, MMA, boxing, and more \u2014 pulled straight from the web, with no ads interrupting the action.\n\n\u2022 Add any sports streaming site as a custom source\n\u2022 Browse live and upcoming games across every league\n\u2022 Favorite your teams and leagues for instant access\n\u2022 Ad-free playback powered by a built-in content blocker\n\u2022 Supports m3u8 and DASH streams with native AVPlayer quality\n\u2022 No account required. No subscription. Completely free.",
+      "localizedDescription": "StreamCenter is your all-in-one hub for live sports streaming.\n\nWatch NFL, NBA, MLB, NHL, soccer, MMA, boxing, and more — pulled straight from the web, with no ads interrupting the action.\n\n• Add any sports streaming site as a custom source\n• Browse live and upcoming games across every league\n• Favorite your teams and leagues for instant access\n• Ad-free playback powered by a built-in content blocker\n• Supports m3u8 and DASH streams with native AVPlayer quality\n• No account required. No subscription. Completely free.",
       "iconURL": "https://shanegillio.github.io/altstore-source/images/icon.png",
       "tintColor": "#E03030",
       "screenshots": [
@@ -24,6 +24,15 @@
         "https://shanegillio.github.io/altstore-source/images/screenshot_settings.png"
       ],
       "versions": [
+        {
+          "version": "2.15",
+          "date": "2026-05-17",
+          "size": 751549,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.15/StreamCenter-2.15.ipa",
+          "localizedDescription": "Metadata enrichment + iOS-incompatible mirror filtering. ESPN reconciliation now runs across every prewarmed league after API discovery, so games coming through observed URLs (bintv, etc.) get their league + kickoff time + live status filled in from ESPN even when no static team table matches. Generic .soccer bucket auto-promotes to specific leagues (La Liga, EPL, etc.) when ESPN identifies the fixture. Player WebView now skips mirror buttons whose ancestor text contains NO IOS and probes each candidate via AVURLAsset.isPlayable before committing.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
         {
           "version": "2.14",
           "date": "2026-05-17",
@@ -38,7 +47,7 @@
           "date": "2026-05-17",
           "size": 728163,
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.13/StreamCenter-2.13.ipa",
-          "localizedDescription": "Architectural rewrite of WebViewScraper around an event-driven MutationObserver instead of the time-budgeted retry pile. An injected user script watches the DOM for game-shaped content (3+ vs anchors, 3+ date-shaped hrefs, 3+ match/game cards) and posts the extraction result the moment content settles \u2014 either via readiness or via 2 s DOM quiescence. Cloudflare-challenge retries, sparse-page retries, and the 4 s extract debounce are all gone \u2014 the observer subsumes them. Fast sites get instant extraction; slow JS aggregators like bintv.net become patient automatically. AdBlockRules, cross-origin nav policy, parked/sinkhole/Cloudflare classification, and SPA tab-fragment clicks all retained.",
+          "localizedDescription": "Architectural rewrite of WebViewScraper around an event-driven MutationObserver instead of the time-budgeted retry pile. An injected user script watches the DOM for game-shaped content (3+ vs anchors, 3+ date-shaped hrefs, 3+ match/game cards) and posts the extraction result the moment content settles — either via readiness or via 2 s DOM quiescence. Cloudflare-challenge retries, sparse-page retries, and the 4 s extract debounce are all gone — the observer subsumes them. Fast sites get instant extraction; slow JS aggregators like bintv.net become patient automatically. AdBlockRules, cross-origin nav policy, parked/sinkhole/Cloudflare classification, and SPA tab-fragment clicks all retained.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         },
@@ -56,7 +65,7 @@
           "date": "2026-05-16",
           "size": 716890,
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.11/StreamCenter-2.11.ipa",
-          "localizedDescription": "Support sportyhunter.net's JSON API. v2.10's ad-redirect block now keeps the scrape pinned to sportyhunter.net, but the site exposes a rich /api/get-matches endpoint with up to 60 live games that none of our existing shape parsers recognised \u2014 games live under liveMatches (not live or all), teams use team1/team2 (not home_team/away_team), and league is separate from sport. New liveMatchesArray shape parser handles all three. Page URLs constructed as /match/{slug} (verified). MLS games etc. now classify via the team-name database (San Jose Earthquakes -> MLS).",
+          "localizedDescription": "Support sportyhunter.net's JSON API. v2.10's ad-redirect block now keeps the scrape pinned to sportyhunter.net, but the site exposes a rich /api/get-matches endpoint with up to 60 live games that none of our existing shape parsers recognised — games live under liveMatches (not live or all), teams use team1/team2 (not home_team/away_team), and league is separate from sport. New liveMatchesArray shape parser handles all three. Page URLs constructed as /match/{slug} (verified). MLS games etc. now classify via the team-name database (San Jose Earthquakes -> MLS).",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         },
@@ -65,7 +74,7 @@
           "date": "2026-05-16",
           "size": 714808,
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.10/StreamCenter-2.10.ipa",
-          "localizedDescription": "Block ad-redirect hijacks in the scraper. Sites whose JS fires location.href to ad hosts (devylora.com, alert.persona..., shieldedsurf...) after first paint can no longer drag the WKWebView away from the real streaming page. Two defenses: (1) AdBlockRules' comprehensive content rule list is now attached to the scraper's WKWebView so ad-network sub-resources are denied at the URL loader. (2) New cross-origin top-level navigation block in decidePolicyFor \u2014 main-frame navigations are allowed only to the same registrable domain (after stripping www.). sportyhunter.space, which has real NHL / AHL / VHL playoff streams, should now surface them.",
+          "localizedDescription": "Block ad-redirect hijacks in the scraper. Sites whose JS fires location.href to ad hosts (devylora.com, alert.persona..., shieldedsurf...) after first paint can no longer drag the WKWebView away from the real streaming page. Two defenses: (1) AdBlockRules' comprehensive content rule list is now attached to the scraper's WKWebView so ad-network sub-resources are denied at the URL loader. (2) New cross-origin top-level navigation block in decidePolicyFor — main-frame navigations are allowed only to the same registrable domain (after stripping www.). sportyhunter.space, which has real NHL / AHL / VHL playoff streams, should now surface them.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         },
@@ -74,7 +83,7 @@
           "date": "2026-05-16",
           "size": 710995,
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.9/StreamCenter-2.9.ipa",
-          "localizedDescription": "Be a smarter browser. parseLeagueHints reads the meta description (which usually lists every league a site covers) to prioritise probing \u2014 drops the probe count from ~20 to 6-8 for typical sites. Three new extraction passes catch clickable game cards Safari sees but our anchor-only extractor missed (data-href, onclick='location.href=...', .match/.game/.event/.fixture cards with nested anchors). Sparse-but-relevant pages get extra +6s / +10s settle time before giving up. Cooler probing: concurrency 5 -> 3, per-probe timeout 20s -> 8s, 60s wallclock budget. Plus trolling loading phrases: 'Choking the playoffs with Harden', 'Blowing a 3-1 lead with Steph', 'Throwing INTs with Jameis', 'Drafting a punter in round one', and more.",
+          "localizedDescription": "Be a smarter browser. parseLeagueHints reads the meta description (which usually lists every league a site covers) to prioritise probing — drops the probe count from ~20 to 6-8 for typical sites. Three new extraction passes catch clickable game cards Safari sees but our anchor-only extractor missed (data-href, onclick='location.href=...', .match/.game/.event/.fixture cards with nested anchors). Sparse-but-relevant pages get extra +6s / +10s settle time before giving up. Cooler probing: concurrency 5 -> 3, per-probe timeout 20s -> 8s, 60s wallclock budget. Plus trolling loading phrases: 'Choking the playoffs with Harden', 'Blowing a 3-1 lead with Steph', 'Throwing INTs with Jameis', 'Drafting a punter in round one', and more.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         },
@@ -83,7 +92,7 @@
           "date": "2026-05-16",
           "size": 708162,
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.8/StreamCenter-2.8.ipa",
-          "localizedDescription": "WNBA gets its own chip on APIs that lump every basketball game under category='basketball' (streamed.pk, ntv.cx) \u2014 the team-name database is now the primary classification signal, so 'Atlanta Dream' beats 'basketball'. Added /api/matches/all and /api/matches/live API discovery paths + bareGameArray shape parser for top-level JSON arrays (streamed.pk style). Toronto Tempo + Golden State Valkyries added to the WNBA team database. Fun: 'Scanning for streams' now cycles through 30 sports-themed loading phrases \u2014 'Lobbing it up for LeBron', 'Catching passes from Mahomes', 'Setting screens for Caitlin Clark', etc.",
+          "localizedDescription": "WNBA gets its own chip on APIs that lump every basketball game under category='basketball' (streamed.pk, ntv.cx) — the team-name database is now the primary classification signal, so 'Atlanta Dream' beats 'basketball'. Added /api/matches/all and /api/matches/live API discovery paths + bareGameArray shape parser for top-level JSON arrays (streamed.pk style). Toronto Tempo + Golden State Valkyries added to the WNBA team database. Fun: 'Scanning for streams' now cycles through 30 sports-themed loading phrases — 'Lobbing it up for LeBron', 'Catching passes from Mahomes', 'Setting screens for Caitlin Clark', etc.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         },
@@ -92,7 +101,7 @@
           "date": "2026-05-16",
           "size": 701604,
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.7/StreamCenter-2.7.ipa",
-          "localizedDescription": "Three fixes. (1) Cloudflare auto-retry: when the first scrape classifies as cloudflareBlocked, silently retry twice with 3s then 6s backoff before showing the empty state \u2014 the shared cookie jar from v2.6 means cf_clearance set by the failed attempt usually unblocks the retry. (2) WNBA no longer flashes as NBA: detectLeague Pass 1 now picks the longest matching keyword, so \"wnba\" beats \"nba\" for /wnba/ URLs. (3) MLS, Liga MX, Ligue 1, Eredivisie, Champions League, Europa League added as first-class SportLeague cases with proper chips, logos, accent colors, and ESPN scoreboard endpoints.",
+          "localizedDescription": "Three fixes. (1) Cloudflare auto-retry: when the first scrape classifies as cloudflareBlocked, silently retry twice with 3s then 6s backoff before showing the empty state — the shared cookie jar from v2.6 means cf_clearance set by the failed attempt usually unblocks the retry. (2) WNBA no longer flashes as NBA: detectLeague Pass 1 now picks the longest matching keyword, so \"wnba\" beats \"nba\" for /wnba/ URLs. (3) MLS, Liga MX, Ligue 1, Eredivisie, Champions League, Europa League added as first-class SportLeague cases with proper chips, logos, accent colors, and ESPN scoreboard endpoints.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         },
@@ -101,7 +110,7 @@
           "date": "2026-05-16",
           "size": 698666,
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.6/StreamCenter-2.6.ipa",
-          "localizedDescription": "Classified empty states. Sources that can't surface leagues now tell you why: Blocked by Cloudflare (1015 / WAF), Domain has been redirected (MPAA takedown via alliance4creativity.com), This domain has no streams (parking \u2014 Rebrandly / ParkLogic / HugeDomains / Sedo / GoDaddy), No leagues detected (site loaded fine), or Can't reach this site. Scraping resilience: shared WKProcessPool + persistent cookie store so cf_clearance carries across scrapes, didCommit title capture so ParkLogic-style document.body wipes don't lose the signal, Cloudflare challenge wait-loop, force-extract on timeout. Page title and meta description now visible in Source Diagnostics.",
+          "localizedDescription": "Classified empty states. Sources that can't surface leagues now tell you why: Blocked by Cloudflare (1015 / WAF), Domain has been redirected (MPAA takedown via alliance4creativity.com), This domain has no streams (parking — Rebrandly / ParkLogic / HugeDomains / Sedo / GoDaddy), No leagues detected (site loaded fine), or Can't reach this site. Scraping resilience: shared WKProcessPool + persistent cookie store so cf_clearance carries across scrapes, didCommit title capture so ParkLogic-style document.body wipes don't lose the signal, Cloudflare challenge wait-loop, force-extract on timeout. Page title and meta description now visible in Source Diagnostics.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         },
@@ -119,7 +128,7 @@
           "date": "2026-05-16",
           "size": 764909,
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.4/StreamCenter-2.4.ipa",
-          "localizedDescription": "Diagnose typo'd / parked-domain sources. WebViewScraper now captures the page title (rendered in Source Diagnostics), and fetchAvailableLeagues bails fast when the title matches known parking templates (Redirecting\u2026, Rebrandly, ParkLogic, HugeDomains, Sedo, GoDaddy, \"is for sale\", \"Branded Short Domain\"). Catches typo'd hostnames like buffstreans.plus \u2192 buffstreams.plus. Foundation Models also receives the page title as additional classification context.",
+          "localizedDescription": "Diagnose typo'd / parked-domain sources. WebViewScraper now captures the page title (rendered in Source Diagnostics), and fetchAvailableLeagues bails fast when the title matches known parking templates (Redirecting…, Rebrandly, ParkLogic, HugeDomains, Sedo, GoDaddy, \"is for sale\", \"Branded Short Domain\"). Catches typo'd hostnames like buffstreans.plus → buffstreams.plus. Foundation Models also receives the page title as additional classification context.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         },
@@ -137,7 +146,7 @@
           "date": "2026-05-16",
           "size": 758279,
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.2/StreamCenter-2.2.ipa",
-          "localizedDescription": "Diagnose ntv.sh-style \"no leagues detected\": (1) Parked-domain fast-fail \u2014 homepages whose links all go off-domain (Rebrandly broken-links, GoDaddy parking) now bail out immediately instead of running a multi-minute probe sweep. (2) Parallel probing \u2014 ESPN pre-warm, Foundation Models, and proactive section probing run concurrently, so a slow/hung iOS 26 LLM call no longer blocks the probes. (3) 10s timeout on Foundation Models. (4) FM results union with rule-based + proactive rather than short-circuiting.",
+          "localizedDescription": "Diagnose ntv.sh-style \"no leagues detected\": (1) Parked-domain fast-fail — homepages whose links all go off-domain (Rebrandly broken-links, GoDaddy parking) now bail out immediately instead of running a multi-minute probe sweep. (2) Parallel probing — ESPN pre-warm, Foundation Models, and proactive section probing run concurrently, so a slow/hung iOS 26 LLM call no longer blocks the probes. (3) 10s timeout on Foundation Models. (4) FM results union with rule-based + proactive rather than short-circuiting.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         },
@@ -155,7 +164,7 @@
           "date": "2026-05-15",
           "size": 747962,
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.0/StreamCenter-1.0.ipa",
-          "localizedDescription": "HostFallback silently retries TLD variants when a source hostname fails DNS (content-block / carrier filter / Screen Time). Looser league matching catches /league/nflstreams, /nbaregular66, /mlbwildcard style slugs. Plus prior fixes: CachedAsyncImage, persistent TeamLogoStore, word-boundary team match, UFL\u2192Other, ESPN-aware classification, generic API discovery. No default sources \u2014 add your own.",
+          "localizedDescription": "HostFallback silently retries TLD variants when a source hostname fails DNS (content-block / carrier filter / Screen Time). Looser league matching catches /league/nflstreams, /nbaregular66, /mlbwildcard style slugs. Plus prior fixes: CachedAsyncImage, persistent TeamLogoStore, word-boundary team match, UFL→Other, ESPN-aware classification, generic API discovery. No default sources — add your own.",
           "buildVersion": "1",
           "minOSVersion": "17.0"
         }
@@ -174,7 +183,7 @@
     {
       "title": "StreamCenter is here!",
       "identifier": "streamcenter_launch",
-      "caption": "Watch live sports from any source \u2014 completely ad-free.",
+      "caption": "Watch live sports from any source — completely ad-free.",
       "date": "2026-05-14",
       "tintColor": "#E03030",
       "notify": true,
