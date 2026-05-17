@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.13",
+          "date": "2026-05-17",
+          "size": 728163,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.13/StreamCenter-2.13.ipa",
+          "localizedDescription": "Architectural rewrite of WebViewScraper around an event-driven MutationObserver instead of the time-budgeted retry pile. An injected user script watches the DOM for game-shaped content (3+ vs anchors, 3+ date-shaped hrefs, 3+ match/game cards) and posts the extraction result the moment content settles \u2014 either via readiness or via 2 s DOM quiescence. Cloudflare-challenge retries, sparse-page retries, and the 4 s extract debounce are all gone \u2014 the observer subsumes them. Fast sites get instant extraction; slow JS aggregators like bintv.net become patient automatically. AdBlockRules, cross-origin nav policy, parked/sinkhole/Cloudflare classification, and SPA tab-fragment clicks all retained.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.12",
           "date": "2026-05-16",
           "size": 731998,
