@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.14",
+          "date": "2026-05-17",
+          "size": 735903,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.14/StreamCenter-2.14.ipa",
+          "localizedDescription": "Network interception. A new fetch / XMLHttpRequest shim injected at document-start captures every URL the page's JS asks for. Filtered URLs (assets and telemetry skipped, deduped, capped at 50) accumulate per scrape. fetchAvailableLeagues then hands them to APIDiscovery.decodeObservedURLs which GETs each with Referer/Origin headers and runs the response through all seven existing shape parsers. First non-empty parse wins and short-circuits the rest of the scrape. For aggregator sites like bintv.net (which fetches games from github.io / old.ppv.to) this lets us consume the upstream JSON directly instead of waiting for the DOM that never shows the data. Per-host cache: working observed URLs are remembered, subsequent scrapes skip the WebView and go straight to the JSON. Also v2.13 regression fixes: MutationObserver quiescence 2 s -> 4 s, expanded fast-bail title list with Service Unavailable / Bad Gateway. Diagnostics view shows observed API call count per scrape.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.13",
           "date": "2026-05-17",
           "size": 728163,
