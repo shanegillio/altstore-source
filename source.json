@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.18",
+          "date": "2026-05-17",
+          "size": 811065,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.18/StreamCenter-2.18.ipa",
+          "localizedDescription": "LLM as interpretation layer + multi-source data correctness. Three v2.17 bugs fixed at the root: games stop regressing to Upcoming on refresh (APIDiscovery now persists Referer/Origin headers across cache hits), MLB live games appear alongside cricket (observed-URL decoding merges all sources instead of racing for first response), and Everton-vs-United with the wrong USA flag is rejected via the double-space-around-vs heuristic. Plus the on-device LLM is now a proper interpretation pass: given page context, it can drop nonsense, canonicalize ambiguous team names, and re-tag wrong-bucket leagues, instead of just voting thumbs-up/down on edge cases.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.17",
           "date": "2026-05-17",
           "size": 799165,
