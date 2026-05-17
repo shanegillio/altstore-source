@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.25",
+          "date": "2026-05-17",
+          "size": 869702,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.25/StreamCenter-2.25.ipa",
+          "localizedDescription": "Tighter listing window. Only games happening within the next day (today + tomorrow ET) appear in the feed. Cuts ESPN scoreboard fetches from 7 days to 2 and adds a defensive cutoff on aggregator gap-fills so weekend fixtures dont slip past. Live games always pass through.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.24",
           "date": "2026-05-17",
           "size": 869324,
