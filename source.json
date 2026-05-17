@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.19",
+          "date": "2026-05-17",
+          "size": 814242,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.19/StreamCenter-2.19.ipa",
+          "localizedDescription": "Live scores, 24/7 channel filtering, past-game handling. MLB live games now show full score lines (3-1 • Top 4th) instead of just a LIVE badge. The ppv.to 24/7 cartoon channels (Family Guy, SpongeBob, South Park, etc.) are filtered at the category layer, killing the whole bucket in one check. Past games correctly fall back to Final or FT score instead of displaying a stale clock time. LLM enrichment prompt sharpened with patterns observed from scouting eight sports streaming sites (DaddyLive country-league prefix format, streamed.pk lowercase categories, sport-suffix preservation for international cricket and hockey).",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.18",
           "date": "2026-05-17",
           "size": 811065,
