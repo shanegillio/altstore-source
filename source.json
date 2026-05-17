@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.21",
+          "date": "2026-05-17",
+          "size": 821217,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.21/StreamCenter-2.21.ipa",
+          "localizedDescription": "ESPN as canonical game data, aggregator only for stream URLs. For sports ESPN covers (NBA, NFL, MLB, NHL, EPL, La Liga, Serie A, MLS, etc.), ESPN now owns teams names, time, live state, score, and league — the aggregator only contributes the stream URL. If ESPN does not list a fixture today and the league cache is populated, the aggregator entry is dropped on principle. Stops the Pistons-vs-Magic-style stale entries by construction. New IIHF league chip for international hockey separates Germany vs Latvia from the NHL bucket. Single-shot chip loading replaces the cached-then-fresh flicker. NASCAR ESPN slug corrected. Race-event titles like Formula 1 2026 Canadian GP Live Streams Links get canonicalized to Canadian Grand Prix via the LLM.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.20",
           "date": "2026-05-17",
           "size": 817062,
