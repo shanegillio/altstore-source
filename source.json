@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.9",
+          "date": "2026-05-16",
+          "size": 710995,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.9/StreamCenter-2.9.ipa",
+          "localizedDescription": "Be a smarter browser. parseLeagueHints reads the meta description (which usually lists every league a site covers) to prioritise probing \u2014 drops the probe count from ~20 to 6-8 for typical sites. Three new extraction passes catch clickable game cards Safari sees but our anchor-only extractor missed (data-href, onclick='location.href=...', .match/.game/.event/.fixture cards with nested anchors). Sparse-but-relevant pages get extra +6s / +10s settle time before giving up. Cooler probing: concurrency 5 -> 3, per-probe timeout 20s -> 8s, 60s wallclock budget. Plus trolling loading phrases: 'Choking the playoffs with Harden', 'Blowing a 3-1 lead with Steph', 'Throwing INTs with Jameis', 'Drafting a punter in round one', and more.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.8",
           "date": "2026-05-16",
           "size": 708162,
