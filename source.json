@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.16",
+          "date": "2026-05-17",
+          "size": 754031,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.16/StreamCenter-2.16.ipa",
+          "localizedDescription": "Static soccer team tables. Adds 80+ club rosters (Premier League, La Liga, Serie A, Bundesliga, Ligue 1) directly to teamLeagueMap so league classification works the moment a stream lists Manchester United / Real Madrid / Juventus, no longer dependent on ESPN reconciliation completing. ESPN reconciliation still refines time/status/live state on top. Fixes the v2.15 regression where bintv soccer games landed in Other on slower-network devices because the ESPN prewarm hadn’t seeded the cache before classification ran.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.15",
           "date": "2026-05-17",
           "size": 751549,
