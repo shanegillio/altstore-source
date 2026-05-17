@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.20",
+          "date": "2026-05-17",
+          "size": 817062,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.20/StreamCenter-2.20.ipa",
+          "localizedDescription": "Dedupe, country-team disambiguation, hard past-game filter. Same fixture appearing from multiple sources (Sevilla vs Real Madrid twice with slightly different live times) is now collapsed to one entry. Country-name fixtures like Germany vs Latvia on an Ice Hockey card classify as hockey instead of soccer. Past games (Detroit Pistons vs Orlando Magic that already finished) are dropped entirely instead of lingering as completed.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.19",
           "date": "2026-05-17",
           "size": 814242,
