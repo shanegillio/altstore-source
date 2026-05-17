@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.23",
+          "date": "2026-05-17",
+          "size": 845477,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.23/StreamCenter-2.23.ipa",
+          "localizedDescription": "ESPN-first listings + multi-source stream pool. ESPN owns game data; aggregators serve as a pool of stream-URL providers and never overwrite canonical ESPN fields. Listings start with ESPN; aggregators attach stream URLs to matched games and add gap-fills for sports ESPN does not cover (cricket, IIHF, MotoGP). Settings switches from a source picker to a multi-toggle pool — any enabled source may be used to find a stream. Plus four smaller fixes: deterministic bestMatch (Arizona-Colorado no longer loads as Friday), interleaved loading phrases, force-refresh on pull-to-refresh and Retry buttons, defensive past-time guard.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.22",
           "date": "2026-05-17",
           "size": 825470,
