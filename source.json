@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.17",
+          "date": "2026-05-17",
+          "size": 799165,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.17/StreamCenter-2.17.ipa",
+          "localizedDescription": "Hosted team database + game-quality cleanup. The team→league lookups now come from teams.json hosted in this repo, with a 603-team baseline bundled in the app. New leagues and rosters can be added without an app rebuild. Cricket gets its own chip (IPL + national sides + BBL/PSL/CPL franchises). International soccer national teams classify properly. Malformed Team-vs-nothing entries are rejected, time:Live strings recognized, ESPN window extended from 2 to 7 days, completed games show FT score instead of Upcoming, and an on-device LLM sanity validator (iOS 26+) drops obvious junk.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.16",
           "date": "2026-05-17",
           "size": 754031,
