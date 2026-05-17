@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.27",
+          "date": "2026-05-17",
+          "size": 868658,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.27/StreamCenter-2.27.ipa",
+          "localizedDescription": "Favorite-related fixes. Favoriting a sport now stars every chip for leagues in that sport. Rescan does not wipe the feed when ESPN returns empty transiently — previous good cache is retained.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.26",
           "date": "2026-05-17",
           "size": 868716,
