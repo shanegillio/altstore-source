@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.22",
+          "date": "2026-05-17",
+          "size": 825470,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.22/StreamCenter-2.22.ipa",
+          "localizedDescription": "Two surgical fixes. TeamDatabase now ingests leagues in a deterministic priority order so Real Madrid and other multi-league clubs always classify into their domestic league (La Liga) instead of randomly landing in Champions League depending on which order Swift hash-tabled the JSON keys on a given launch. Favorites changes only re-sort the existing feed now instead of triggering a fresh scrape — pull-to-refresh added as the explicit manual reload trigger.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.21",
           "date": "2026-05-17",
           "size": 821217,
