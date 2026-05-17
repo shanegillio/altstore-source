@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.11",
+          "date": "2026-05-16",
+          "size": 716890,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.11/StreamCenter-2.11.ipa",
+          "localizedDescription": "Support sportyhunter.net's JSON API. v2.10's ad-redirect block now keeps the scrape pinned to sportyhunter.net, but the site exposes a rich /api/get-matches endpoint with up to 60 live games that none of our existing shape parsers recognised \u2014 games live under liveMatches (not live or all), teams use team1/team2 (not home_team/away_team), and league is separate from sport. New liveMatchesArray shape parser handles all three. Page URLs constructed as /match/{slug} (verified). MLS games etc. now classify via the team-name database (San Jose Earthquakes -> MLS).",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.10",
           "date": "2026-05-16",
           "size": 714808,
