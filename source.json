@@ -29,8 +29,8 @@
           "date": "2026-05-18",
           "localizedDescription": "Source-agnostic learning: the app now records what works per source and uses it to short-circuit future taps. URL templates and team slugs get learned from successful matches. p-stream-style failure memory skips known-bad (game, source) pairs for 1h. SourceHealth demotes flaky sources automatically. TheSportsDB closes ESPN's IIHF + Cricket gaps. New Settings \u2192 Source Stats shows what's working.",
           "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.30/StreamCenter-2.30.ipa",
-          "size": 1732437,
-          "sha256": "53b06b85a3c13d56bdc1bcd5d9bbdc8a213b6ee3d75ea714e8d87825ef58b1f6"
+          "size": 1732439,
+          "sha256": "ed6efa2e3288ee4c3369d12c237f32135c8ce458cd70bfac02c2412c14584f5a"
         },
         {
           "version": "2.29",
