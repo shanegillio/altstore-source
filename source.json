@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.29",
+          "date": "2026-05-17",
+          "size": 887074,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.29/StreamCenter-2.29.ipa",
+          "localizedDescription": "Per-source LLM page search on tap. Resolver now actually searches each enabled source for the matching game page (WebViewScraper + FoundationModelScraper + team-pair match) before falling back to homepage attempts. Overlay shows Searching sources during the parallel phase and Checking sources during the sequential attempts.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.28",
           "date": "2026-05-17",
           "size": 875391,
