@@ -25,6 +25,15 @@
       ],
       "versions": [
         {
+          "version": "2.28",
+          "date": "2026-05-17",
+          "size": 875391,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.28/StreamCenter-2.28.ipa",
+          "localizedDescription": "Stream resolver walks every enabled source as Checking sources rather than falling back to ESPN page label. Pull-to-refresh has per-source 15s and per-league 10s budgets so a hanging source no longer stalls the whole refresh.",
+          "buildVersion": "1",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "2.27",
           "date": "2026-05-17",
           "size": 868658,
