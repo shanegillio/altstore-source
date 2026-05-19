@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.38",
+          "date": "2026-05-19",
+          "localizedDescription": "Verification mode: see where we actually navigate before worrying about playback. The WebView is visible from the start; the walk + iframe drill-down still run automatically. A top strip shows the current URL plus a 'via X \u2192 Y \u2192 Z' breadcrumb of how we got there. A bottom strip lists every stream URL the JS-shim caught \u2014 tap one to try playing it. AVPlayer auto-commit is OFF in this build (returns in v2.39 once verification confirms navigation works). 'Try next source' button is in the top strip; per-attempt budget extended to 20s.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.38/StreamCenter-2.38.ipa",
+          "size": 1297694,
+          "sha256": "e4bc8ac1d85023ab3499d5a8ac879d0cecfc0ad4812592efcf1db21d3020e570"
+        },
+        {
           "version": "2.37",
           "date": "2026-05-19",
           "localizedDescription": "Iframe drill-down: when an aggregator wraps its player in a cross-origin iframe (FileMoon, Doodstream, embed.tube, etc.), our JS-shim's injection was blocked there by WKWebView's security boundary, so the m3u8 born inside the iframe was invisible to us. v2.37 surfaces every cross-origin iframe URL through a new streamIframe message channel; the Coordinator picks the best candidate (priority: known embed host, player-named ancestor, then largest dimensions) and navigates the top WebView into it directly with parent as Referer / Origin. The shim then runs same-origin on the embed host, catches the m3u8, AVPlayer plays. Bounded at 2 hops. Pattern matches what every browser extension + Cloudstream + movie-web does.",
