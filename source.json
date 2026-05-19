@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.39",
+          "date": "2026-05-19",
+          "localizedDescription": "Walk-activity visibility + host-fallback recovery. The verification nav strip now shows what the JS-shim's walk loop is actually doing \u2014 green hand icon + clicked-element text when it picks a card, yellow magnifier when it can't find a match yet, red error if a click throws. When a source's homepage fails to load (frame load interrupted, sinkhole MIME, etc.), we now try TLD variants via HostFallback and persist the working one; if that fails too, a red inline error tells you what to try next.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.39/StreamCenter-2.39.ipa",
+          "size": 1334048,
+          "sha256": "4d032f53b94e56e1c8c29e0a7eeac3fbad550c3c39fd09bacdf8017ad6fa9ff3"
+        },
+        {
           "version": "2.38",
           "date": "2026-05-19",
           "localizedDescription": "Verification mode: see where we actually navigate before worrying about playback. The WebView is visible from the start; the walk + iframe drill-down still run automatically. A top strip shows the current URL plus a 'via X \u2192 Y \u2192 Z' breadcrumb of how we got there. A bottom strip lists every stream URL the JS-shim caught \u2014 tap one to try playing it. AVPlayer auto-commit is OFF in this build (returns in v2.39 once verification confirms navigation works). 'Try next source' button is in the top strip; per-attempt budget extended to 20s.",
