@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.31",
+          "date": "2026-05-19",
+          "localizedDescription": "Confidence-scored stream selection. Multiple candidate URLs now get accumulated, scored across URL fingerprint + HLS manifest structure + DOM context (LIVE badges, viewer counts, team names nearby), and probed with a real first-segment fetch \u2014 fixes the AVPlayer-opens-but-shows-the-blocked-icon failure. Ad-server hostnames hard-rejected. Target-game-aware click steering: the JS-shim scopes mirror clicks to the card matching the user's tapped teams.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.31/StreamCenter-2.31.ipa",
+          "size": 1814617,
+          "sha256": "9593322af4686b727602f8c82dab5f761ce8071aa844b2f24fd15882dbe66b2e"
+        },
+        {
           "version": "2.30",
           "date": "2026-05-18",
           "localizedDescription": "Source-agnostic learning: the app now records what works per source and uses it to short-circuit future taps. URL templates and team slugs get learned from successful matches. p-stream-style failure memory skips known-bad (game, source) pairs for 1h. SourceHealth demotes flaky sources automatically. TheSportsDB closes ESPN's IIHF + Cricket gaps. New Settings \u2192 Source Stats shows what's working.",
