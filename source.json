@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.36",
+          "date": "2026-05-19",
+          "localizedDescription": "Fix missing live games past midnight ET. ESPN and TheSportsDB schedule queries now span yesterday + today + tomorrow ET (was today + tomorrow), so west-coast NBA / NHL / soccer games that tipped off late and are still live past midnight ET no longer drop off the feed. ESPN's per-event isCompleted flag and a new completed-status filter in TheSportsDBProducer drop yesterday's finished games so the feed doesn't get polluted.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.36/StreamCenter-2.36.ipa",
+          "size": 1237591,
+          "sha256": "7f30da491674a9a96df1fde8402733b161ac2dd97c3dee4b58ad94c4ce0cc60c"
+        },
+        {
           "version": "2.35",
           "date": "2026-05-19",
           "localizedDescription": "Goal-directed page traversal. Stream-finding is now a bounded recursive walk like a person browsing the site: at each page load, scan for elements (anchors, divs, buttons, data-match cards) mentioning the user's tapped game, click the smallest matching element, recurse up to 4 clicks until a <video> element or .m3u8 emerges. When the homepage has no game match, walk one level into a league-named category link first. Plus: WebViewScraper Pass 1.7 now captures SPA <div onclick> cards without inner anchors (bintv-style), so listing-time matches work even when cards aren't <a href> anchors.",
