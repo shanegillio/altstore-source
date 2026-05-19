@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.41",
+          "date": "2026-05-19",
+          "localizedDescription": "Three targeted fixes from v2.40 device verification. (1) Walk clicks the clickable ancestor of a text match \u2014 fixes bintv's '<h2 class=match-title> matched but <div class=match-card> has the onclick' bug. Both auto-walk and manual detected-card taps use the same walk-up logic. (2) Iframe drill-down skips auth/SSO hosts (auth.*, login.*, /sso, /login, /signin, /oauth) \u2014 fixes streameast detouring into its SSO frame and abandoning the game-listing parent page. (3) Per-page state resets when the WebView commits a new host or path \u2014 no more stale detected-cards from page A showing under page B's auth-wall warning. Stays in verification mode; auto-play returns in v2.42.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.41/StreamCenter-2.41.ipa",
+          "size": 1370908,
+          "sha256": "23447deea5b81b771fe6f7894fdce1415ac8b674ad1e99d81fd8da6fe2e21789"
+        },
+        {
           "version": "2.40",
           "date": "2026-05-19",
           "localizedDescription": "Show what's actually on the source page. The verification nav strip now lists every game-shaped card the shim detects ('Found on this page (5): Marlins vs Braves, Phillies vs Reds, \u2026'). Each card is tappable \u2014 the app sends a click into the WebView for that pair, in case our exact matcher missed. Detects auth/login walls (streameast's SSO frame, etc.) and surfaces an orange lock warning so you know why navigation stopped.",
