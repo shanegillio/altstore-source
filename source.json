@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.42",
+          "date": "2026-05-19",
+          "localizedDescription": "Same-origin sub-frame guards. The JS-shim was being injected into every frame (forMainFrameOnly:false, which is correct for stream-URL interception), but the walk, card harvest, and auth-wall detection were also running in those tiny same-origin sub-frames \u2014 each scanning their own document and posting misleading 'no_match (dom=6)' / 'no_match (dom=11)' events and false auth-wall warnings while the actual main-frame page rendered cards fine. v2.42 adds 'if (window.top !== window) return' guards to tryAdvance, harvestDetectedCards, and detectAuthWall so only the main frame drives those signals. Stream-URL interception (XHR/fetch/video.src hooks) still runs in every frame \u2014 that's where m3u8s emerge from embed iframes.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.42/StreamCenter-2.42.ipa",
+          "size": 1369220,
+          "sha256": "bae43ea292a3b7f05cd5f5e32ddebd49a48d5c62bb8f972a0f02dc5865270834"
+        },
+        {
           "version": "2.41",
           "date": "2026-05-19",
           "localizedDescription": "Three targeted fixes from v2.40 device verification. (1) Walk clicks the clickable ancestor of a text match \u2014 fixes bintv's '<h2 class=match-title> matched but <div class=match-card> has the onclick' bug. Both auto-walk and manual detected-card taps use the same walk-up logic. (2) Iframe drill-down skips auth/SSO hosts (auth.*, login.*, /sso, /login, /signin, /oauth) \u2014 fixes streameast detouring into its SSO frame and abandoning the game-listing parent page. (3) Per-page state resets when the WebView commits a new host or path \u2014 no more stale detected-cards from page A showing under page B's auth-wall warning. Stays in verification mode; auto-play returns in v2.42.",
