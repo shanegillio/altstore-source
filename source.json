@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.34",
+          "date": "2026-05-19",
+          "localizedDescription": "Read pages like a screen reader. WebViewScraper now captures aria-label, aria-description, title, child <img alt>, select data-* attributes, and 3 levels of ancestor card context for every anchor \u2014 closing the gap on image-only icon cards where team names live in aria-label, not innerText. Adds Pass 1.8 JSON-LD SportsEvent / BroadcastEvent parsing: when a site publishes structured data (most modern sites do, for SEO), we extract authoritative game-to-URL mappings directly. Readiness check now reads aria-label too, so image-only pages don't time out empty. LLM fallback flipped from total-miss-only to gap-fill (runs once per source max, only when plain matching left games unmatched). Empty-state UI for no-sources-enabled \u2014 no more \"Loading\u2026 ESPN page\" dead end.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.34/StreamCenter-2.34.ipa",
+          "size": 1234832,
+          "sha256": "921bb409a64760f7c9c5c4534984eac27ece809e5e891ffbf38eeb426963330c"
+        },
+        {
           "version": "2.33",
           "date": "2026-05-19",
           "localizedDescription": "Source toggles now take effect immediately at tap-time. Fixed: pre-matched stream URLs in game.streamURLs were being tried regardless of whether the source was currently toggled on. Now PlayerView filters by registry.enabledSources for every attempt \u2014 pre-matched and homepage-fallback alike. Toggle a source off in Settings and it stops being attempted on the very next tap.",
