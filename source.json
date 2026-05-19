@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.37",
+          "date": "2026-05-19",
+          "localizedDescription": "Iframe drill-down: when an aggregator wraps its player in a cross-origin iframe (FileMoon, Doodstream, embed.tube, etc.), our JS-shim's injection was blocked there by WKWebView's security boundary, so the m3u8 born inside the iframe was invisible to us. v2.37 surfaces every cross-origin iframe URL through a new streamIframe message channel; the Coordinator picks the best candidate (priority: known embed host, player-named ancestor, then largest dimensions) and navigates the top WebView into it directly with parent as Referer / Origin. The shim then runs same-origin on the embed host, catches the m3u8, AVPlayer plays. Bounded at 2 hops. Pattern matches what every browser extension + Cloudstream + movie-web does.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.37/StreamCenter-2.37.ipa",
+          "size": 1246452,
+          "sha256": "1c89ecebc3ca4022cebe7ee79ce5a204730b7f54ceb715e4065d02400dd89f50"
+        },
+        {
           "version": "2.36",
           "date": "2026-05-19",
           "localizedDescription": "Fix missing live games past midnight ET. ESPN and TheSportsDB schedule queries now span yesterday + today + tomorrow ET (was today + tomorrow), so west-coast NBA / NHL / soccer games that tipped off late and are still live past midnight ET no longer drop off the feed. ESPN's per-event isCompleted flag and a new completed-status filter in TheSportsDBProducer drop yesterday's finished games so the feed doesn't get polluted.",
