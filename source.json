@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.33",
+          "date": "2026-05-19",
+          "localizedDescription": "Source toggles now take effect immediately at tap-time. Fixed: pre-matched stream URLs in game.streamURLs were being tried regardless of whether the source was currently toggled on. Now PlayerView filters by registry.enabledSources for every attempt \u2014 pre-matched and homepage-fallback alike. Toggle a source off in Settings and it stops being attempted on the very next tap.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.33/StreamCenter-2.33.ipa",
+          "size": 1223106,
+          "sha256": "cb1a132df02ac9dd9c6247548ffce01e4e047e25c91cb0c0e903f1fdab1c72aa"
+        },
+        {
           "version": "2.32",
           "date": "2026-05-19",
           "localizedDescription": "Full simplification: -5800 lines (45% reduction). Removed v2.31's scoring/probe stack (CandidateScorer, M3U8Scorer, SegmentProbe, URLFingerprint) that was causing the black-screen failures. Removed the aggregator-as-truth listing machinery (APIDiscovery, SourceLearningStore, LearnedSportsData, and most of CustomStreamSource) left over from before ESPN became canonical. Dropped dead GamesView + FavoritesView. Aggregator's only job now: scrape homepage, substring-match anchor text/href against canonical games. Player commits the first .m3u8 the shim catches \u2014 no accumulator, no parallel pre-resolve, no \"Searching sources...\" overlay.",
