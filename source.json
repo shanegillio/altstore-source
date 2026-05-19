@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.43",
+          "date": "2026-05-19",
+          "localizedDescription": "Per-scan diagnostic in place of throttled no_match. Every scan posts 'Walk: dom=N cands=M matched=K main=1 sample=...' so we see in real time exactly what the walk's scan is doing \u2014 how many clickable elements it queried, how many passed bothPresent, the smallest matched blob's first 80 chars, and main_frame status. Replaces the single stale no_match snapshot from before. If matched>0 but no click event follows, that pinpoints the click dispatch as the bug; if matched=0 with dom in the hundreds, that's the matcher; if dom stays tiny, that's the frame/render layer.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.43/StreamCenter-2.43.ipa",
+          "size": 1370352,
+          "sha256": "a1d3e276e150a55df880d9acdaec632df499736424bc15b0c33a879d0827d065"
+        },
+        {
           "version": "2.42",
           "date": "2026-05-19",
           "localizedDescription": "Same-origin sub-frame guards. The JS-shim was being injected into every frame (forMainFrameOnly:false, which is correct for stream-URL interception), but the walk, card harvest, and auth-wall detection were also running in those tiny same-origin sub-frames \u2014 each scanning their own document and posting misleading 'no_match (dom=6)' / 'no_match (dom=11)' events and false auth-wall warnings while the actual main-frame page rendered cards fine. v2.42 adds 'if (window.top !== window) return' guards to tryAdvance, harvestDetectedCards, and detectAuthWall so only the main frame drives those signals. Stream-URL interception (XHR/fetch/video.src hooks) still runs in every frame \u2014 that's where m3u8s emerge from embed iframes.",
