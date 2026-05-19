@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.32",
+          "date": "2026-05-19",
+          "localizedDescription": "Full simplification: -5800 lines (45% reduction). Removed v2.31's scoring/probe stack (CandidateScorer, M3U8Scorer, SegmentProbe, URLFingerprint) that was causing the black-screen failures. Removed the aggregator-as-truth listing machinery (APIDiscovery, SourceLearningStore, LearnedSportsData, and most of CustomStreamSource) left over from before ESPN became canonical. Dropped dead GamesView + FavoritesView. Aggregator's only job now: scrape homepage, substring-match anchor text/href against canonical games. Player commits the first .m3u8 the shim catches \u2014 no accumulator, no parallel pre-resolve, no \"Searching sources...\" overlay.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.32/StreamCenter-2.32.ipa",
+          "size": 1222887,
+          "sha256": "2331754c4039ed32b38c37e09163ed070edba005c143b979a47d605969b0c880"
+        },
+        {
           "version": "2.31",
           "date": "2026-05-19",
           "localizedDescription": "Confidence-scored stream selection. Multiple candidate URLs now get accumulated, scored across URL fingerprint + HLS manifest structure + DOM context (LIVE badges, viewer counts, team names nearby), and probed with a real first-segment fetch \u2014 fixes the AVPlayer-opens-but-shows-the-blocked-icon failure. Ad-server hostnames hard-rejected. Target-game-aware click steering: the JS-shim scopes mirror clicks to the card matching the user's tapped teams.",
