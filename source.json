@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.40",
+          "date": "2026-05-19",
+          "localizedDescription": "Show what's actually on the source page. The verification nav strip now lists every game-shaped card the shim detects ('Found on this page (5): Marlins vs Braves, Phillies vs Reds, \u2026'). Each card is tappable \u2014 the app sends a click into the WebView for that pair, in case our exact matcher missed. Detects auth/login walls (streameast's SSO frame, etc.) and surfaces an orange lock warning so you know why navigation stopped.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.40/StreamCenter-2.40.ipa",
+          "size": 1363676,
+          "sha256": "45ac672c61a928d2a99f5141e163f4cb4a97dede7af584879a4c97f41853ebb3"
+        },
+        {
           "version": "2.39",
           "date": "2026-05-19",
           "localizedDescription": "Walk-activity visibility + host-fallback recovery. The verification nav strip now shows what the JS-shim's walk loop is actually doing \u2014 green hand icon + clicked-element text when it picks a card, yellow magnifier when it can't find a match yet, red error if a click throws. When a source's homepage fails to load (frame load interrupted, sinkhole MIME, etc.), we now try TLD variants via HostFallback and persist the working one; if that fails too, a red inline error tells you what to try next.",
