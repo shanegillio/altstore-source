@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.35",
+          "date": "2026-05-19",
+          "localizedDescription": "Goal-directed page traversal. Stream-finding is now a bounded recursive walk like a person browsing the site: at each page load, scan for elements (anchors, divs, buttons, data-match cards) mentioning the user's tapped game, click the smallest matching element, recurse up to 4 clicks until a <video> element or .m3u8 emerges. When the homepage has no game match, walk one level into a league-named category link first. Plus: WebViewScraper Pass 1.7 now captures SPA <div onclick> cards without inner anchors (bintv-style), so listing-time matches work even when cards aren't <a href> anchors.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.35/StreamCenter-2.35.ipa",
+          "size": 1236668,
+          "sha256": "0d1979b3890e4b85c68608fd21bf1c505f4e5b0e830e91b70e1f2b636384ea2f"
+        },
+        {
           "version": "2.34",
           "date": "2026-05-19",
           "localizedDescription": "Read pages like a screen reader. WebViewScraper now captures aria-label, aria-description, title, child <img alt>, select data-* attributes, and 3 levels of ancestor card context for every anchor \u2014 closing the gap on image-only icon cards where team names live in aria-label, not innerText. Adds Pass 1.8 JSON-LD SportsEvent / BroadcastEvent parsing: when a site publishes structured data (most modern sites do, for SEO), we extract authoritative game-to-URL mappings directly. Readiness check now reads aria-label too, so image-only pages don't time out empty. LLM fallback flipped from total-miss-only to gap-fill (runs once per source max, only when plain matching left games unmatched). Empty-state UI for no-sources-enabled \u2014 no more \"Loading\u2026 ESPN page\" dead end.",
