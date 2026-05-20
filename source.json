@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.46",
+          "date": "2026-05-20",
+          "localizedDescription": "Per-tap Traversal Log + outcome marking. Settings \u2192 Traversal Log now records every tap-to-play session: source, game, full event timeline (walk scans, cat_scan, clicks, navigation hops, intercepted m3u8s, load failures), captured stream URLs, duration. Tap a session for a detail view with the timeline, captured streams (with Play buttons), and Worked/Didn't/Unsure outcome buttons. Top of the list shows 7-day aggregate stats per source (attempts, Hop 2+ reach, captured, worked). Lets us iterate against data instead of ad-hoc screenshots \u2014 quantitative measure of 'how well are we traversing sites automatically to find a stream' across versions.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.46/StreamCenter-2.46.ipa",
+          "size": 1539038,
+          "sha256": "6089d95d7ffb486c9109af9b8785233df3246e259038e1284dbe76cee8b8d149"
+        },
+        {
           "version": "2.45",
           "date": "2026-05-20",
           "localizedDescription": "Make multi-page traversal observable + reliable. Three changes, all general (no per-site code). (1) robustClick dispatches the full pointer/mouse event sequence (pointerdown, mousedown, pointerup, mouseup, click) in addition to .click() \u2014 fixes the textbook 'el.click() doesn't trigger React/Vue/Svelte addEventListener handlers' problem. Used by both the auto-walk and manual detected-card taps. (2) New cat_scan diagnostic event posted whenever the walk falls through to findCategoryLink \u2014 shows cat_cands, cat_matched, clicked text, rej sample so we can finally see whether category-landing pages (crackstreams, ppv.to) find their MLB/Baseball card. (3) Hop counter in navStrip (cyan 'Hop N' chip) \u2014 reads navigationHistory.count so multi-page traversal is visible at a glance.",
