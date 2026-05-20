@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.45",
+          "date": "2026-05-20",
+          "localizedDescription": "Make multi-page traversal observable + reliable. Three changes, all general (no per-site code). (1) robustClick dispatches the full pointer/mouse event sequence (pointerdown, mousedown, pointerup, mouseup, click) in addition to .click() \u2014 fixes the textbook 'el.click() doesn't trigger React/Vue/Svelte addEventListener handlers' problem. Used by both the auto-walk and manual detected-card taps. (2) New cat_scan diagnostic event posted whenever the walk falls through to findCategoryLink \u2014 shows cat_cands, cat_matched, clicked text, rej sample so we can finally see whether category-landing pages (crackstreams, ppv.to) find their MLB/Baseball card. (3) Hop counter in navStrip (cyan 'Hop N' chip) \u2014 reads navigationHistory.count so multi-page traversal is visible at a glance.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.45/StreamCenter-2.45.ipa",
+          "size": 1385590,
+          "sha256": "0dfd81aa0a9b41cc9f4d87cd6be7c8735c447b0cdd3211516403dd62cc7aa2eb"
+        },
+        {
           "version": "2.44",
           "date": "2026-05-20",
           "localizedDescription": "Three targeted fixes from v2.43 diagnostic data. (1) readableTextFromElement now reads descendant img[alt] up to 4 per element \u2014 streameast and similar sites render score cards with team logos only, full names live in alt. (2) findCategoryLink broadened from a[href]-only to also include button/[onclick]/[data-href]/[role=button]/[class*=card]/[class*=link], and wraps the result through findClickableAncestor \u2014 crackstreams' NBA Streams card is a styled div, not an anchor. (3) The 'scan' diagnostic event now also surfaces rej='\u2026' when matched=0, sampling the longest rejected blob so the next round of testing shows exactly what content the matcher rejected.",
