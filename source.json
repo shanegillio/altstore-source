@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.47",
+          "date": "2026-05-20",
+          "localizedDescription": "Two fixes from v2.46 device data. (1) Meaningful hop counting: a 'hop' now collapses TLD-only redirects and trailing-slash variants into a single entry \u2014 what the user perceives as 'different page.' navigationHops keeps the raw URL chain for the detail view; the Hop chip and aggregate stats use the normalized count. Fixes v2.46's over-reporting (streameast/buffstreams showed Hop 2 even when the page didn't change). (2) Auto-play return, gated on meaningful Hop \u2265 2: when a stream URL is captured AND the WebView has actually navigated past the source's homepage AND no AVPlayer is committed yet, auto-commit the first captured stream. ppv.to and bintv consistently hit this gate per v2.46 data. User can still tap pills in the strip manually if auto-play picks the wrong URL.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.47/StreamCenter-2.47.ipa",
+          "size": 1541185,
+          "sha256": "d1482864e6d403123c130d1b890d759d0fd230ace0c64c9fbfdb38ee80c31b1b"
+        },
+        {
           "version": "2.46",
           "date": "2026-05-20",
           "localizedDescription": "Per-tap Traversal Log + outcome marking. Settings \u2192 Traversal Log now records every tap-to-play session: source, game, full event timeline (walk scans, cat_scan, clicks, navigation hops, intercepted m3u8s, load failures), captured stream URLs, duration. Tap a session for a detail view with the timeline, captured streams (with Play buttons), and Worked/Didn't/Unsure outcome buttons. Top of the list shows 7-day aggregate stats per source (attempts, Hop 2+ reach, captured, worked). Lets us iterate against data instead of ad-hoc screenshots \u2014 quantitative measure of 'how well are we traversing sites automatically to find a stream' across versions.",
