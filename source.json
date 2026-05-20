@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.44",
+          "date": "2026-05-20",
+          "localizedDescription": "Three targeted fixes from v2.43 diagnostic data. (1) readableTextFromElement now reads descendant img[alt] up to 4 per element \u2014 streameast and similar sites render score cards with team logos only, full names live in alt. (2) findCategoryLink broadened from a[href]-only to also include button/[onclick]/[data-href]/[role=button]/[class*=card]/[class*=link], and wraps the result through findClickableAncestor \u2014 crackstreams' NBA Streams card is a styled div, not an anchor. (3) The 'scan' diagnostic event now also surfaces rej='\u2026' when matched=0, sampling the longest rejected blob so the next round of testing shows exactly what content the matcher rejected.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.44/StreamCenter-2.44.ipa",
+          "size": 1371752,
+          "sha256": "10724649d8c187fac4a302e799484a272f09086706edfcf1dd8521b79cd43410"
+        },
+        {
           "version": "2.43",
           "date": "2026-05-19",
           "localizedDescription": "Per-scan diagnostic in place of throttled no_match. Every scan posts 'Walk: dom=N cands=M matched=K main=1 sample=...' so we see in real time exactly what the walk's scan is doing \u2014 how many clickable elements it queried, how many passed bothPresent, the smallest matched blob's first 80 chars, and main_frame status. Replaces the single stale no_match snapshot from before. If matched>0 but no click event follows, that pinpoints the click dispatch as the bug; if matched=0 with dom in the hundreds, that's the matcher; if dom stays tiny, that's the frame/render layer.",
