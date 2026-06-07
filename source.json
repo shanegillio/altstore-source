@@ -25,6 +25,16 @@
       ],
       "versions": [
         {
+          "version": "0.4",
+          "buildVersion": "4",
+          "date": "2026-06-07",
+          "localizedDescription": "What's new in 0.4:\n• Removed the Source Stats screen and streamlined the app under the hood",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v0.4/StreamCenter-0.4.ipa",
+          "size": 981577,
+          "sha256": "4cc01ede49be6b30839e2ffcb2332e973b00841dab26b7f95b61fd71d282140a",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.3",
           "buildVersion": "3",
           "date": "2026-06-07",
