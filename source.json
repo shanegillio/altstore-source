@@ -25,6 +25,16 @@
       ],
       "versions": [
         {
+          "version": "0.2",
+          "buildVersion": "2",
+          "date": "2026-06-07",
+          "localizedDescription": "What's new in 0.2:\n• Smarter source matching — matches teams by abbreviation and learns each source's URL templates\n• Stops retrying sources that can't open a game, with live probe status so you can see what's working",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v0.2/StreamCenter-0.2.ipa",
+          "size": 994305,
+          "sha256": "5396c9133d2cd9d0c512899cdd616f532789a21c87029c3f976d193579ad966b",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.1",
           "buildVersion": "1",
           "date": "2026-06-07",
