@@ -25,6 +25,16 @@
       ],
       "versions": [
         {
+          "version": "0.3",
+          "buildVersion": "3",
+          "date": "2026-06-07",
+          "localizedDescription": "What's new in 0.3:\n• Fixed normal-mode streams getting stuck on the loading screen",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v0.3/StreamCenter-0.3.ipa",
+          "size": 1000183,
+          "sha256": "9c4425192312aa16455bb1ef6bd83f465b3efcb70cf79b21aee8533aa34f7327",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.2",
           "buildVersion": "2",
           "date": "2026-06-07",
