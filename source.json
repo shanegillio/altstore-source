@@ -25,6 +25,16 @@
       ],
       "versions": [
         {
+          "version": "0.5",
+          "buildVersion": "5",
+          "date": "2026-06-08",
+          "localizedDescription": "What's new in 0.5:\n• Much better at finding and loading streams\n• Follows mirror domains and recovers JS-routed game links\n• Skips ad iframes and avoids redirect loops\n• Smarter at picking the team-specific game link from match cards",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v0.5/StreamCenter-0.5.ipa",
+          "size": 987620,
+          "sha256": "f8a16024fa6db5de726c04078004532ef61f677d5a67a7d0a9cfa9bb9fb1159f",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.4",
           "buildVersion": "4",
           "date": "2026-06-07",
