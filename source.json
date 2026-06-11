@@ -25,6 +25,16 @@
       ],
       "versions": [
         {
+          "version": "0.6",
+          "buildVersion": "6",
+          "date": "2026-06-11",
+          "localizedDescription": "What's new in 0.6:\n• Fixed pull-to-refresh so streams and scores update correctly\n• Cleaner Settings — favorite and source counts now show on the right\n• Removed the source template feature and tidied things up under the hood",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v0.6/StreamCenter-0.6.ipa",
+          "size": 929771,
+          "sha256": "a5a11ac4d1bf2b9fd3107bbbe6d2aac58835aaf55e4d2629f64d4143efb3c41b",
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.5",
           "buildVersion": "5",
           "date": "2026-06-08",
