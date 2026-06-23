@@ -1,7 +1,7 @@
 {
   "name": "Out of Credits Apps",
   "subtitle": "Sports streams. No ads. Your way.",
-  "description": "Home of StreamCenter — a free, open sports streaming app that lets you watch live games from any source you choose. Add your own stream sites, favorite your teams and leagues, and enjoy completely ad-free playback. No subscriptions, no popups, no nonsense.",
+  "description": "Home of StreamCenter \u2014 a free, open sports streaming app that lets you watch live games from any source you choose. Add your own stream sites, favorite your teams and leagues, and enjoy completely ad-free playback. No subscriptions, no popups, no nonsense.",
   "iconURL": "https://shanegillio.github.io/altstore-source/images/icon.png",
   "headerURL": "https://shanegillio.github.io/altstore-source/images/header.png",
   "website": "https://shanegillio.github.io/altstore-source",
@@ -15,7 +15,7 @@
       "bundleIdentifier": "app.bitrig.new.b3037d94-1a52-4185-b143-1daa8fdcafe1",
       "developerName": "Out of Credits",
       "subtitle": "Live sports streams, zero ads.",
-      "localizedDescription": "StreamCenter is your all-in-one hub for live sports streaming.\n\nWatch NFL, NBA, MLB, NHL, soccer, MMA, boxing, and more — pulled straight from the web, with no ads interrupting the action.\n\n• Add any sports streaming site as a custom source\n• Browse live and upcoming games across every league\n• Favorite your teams and leagues for instant access\n• Ad-free playback powered by a built-in content blocker\n• Supports m3u8 and DASH streams with native AVPlayer quality\n• No account required. No subscription. Completely free.",
+      "localizedDescription": "StreamCenter is your all-in-one hub for live sports streaming.\n\nWatch NFL, NBA, MLB, NHL, soccer, MMA, boxing, and more \u2014 pulled straight from the web, with no ads interrupting the action.\n\n\u2022 Add any sports streaming site as a custom source\n\u2022 Browse live and upcoming games across every league\n\u2022 Favorite your teams and leagues for instant access\n\u2022 Ad-free playback powered by a built-in content blocker\n\u2022 Supports m3u8 and DASH streams with native AVPlayer quality\n\u2022 No account required. No subscription. Completely free.",
       "iconURL": "https://shanegillio.github.io/altstore-source/images/icon.png",
       "tintColor": "#E03030",
       "screenshots": [
@@ -25,63 +25,21 @@
       ],
       "versions": [
         {
-          "version": "0.6",
-          "buildVersion": "6",
-          "date": "2026-06-11",
-          "localizedDescription": "What's new in 0.6:\n• Fixed pull-to-refresh so streams and scores update correctly\n• Cleaner Settings — favorite and source counts now show on the right\n• Removed the source template feature and tidied things up under the hood",
-          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v0.6/StreamCenter-0.6.ipa",
-          "size": 929771,
-          "sha256": "a5a11ac4d1bf2b9fd3107bbbe6d2aac58835aaf55e4d2629f64d4143efb3c41b",
+          "version": "2.48",
+          "date": "2026-06-22",
+          "size": 747962,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.48/StreamCenter-2.48.ipa",
+          "localizedDescription": "ppv.to WebView fallback: when AVPlayer stalls on session-gated CDN streams, the embedded ppv.to player activates automatically after 8 seconds. Fixes bintv pair-order stream matching so home/away team order no longer breaks game link resolution. Unwraps embedded stream links for correct direct playback.",
+          "buildVersion": "248",
           "minOSVersion": "17.0"
         },
         {
-          "version": "0.5",
-          "buildVersion": "5",
-          "date": "2026-06-08",
-          "localizedDescription": "What's new in 0.5:\n• Much better at finding and loading streams\n• Follows mirror domains and recovers JS-routed game links\n• Skips ad iframes and avoids redirect loops\n• Smarter at picking the team-specific game link from match cards",
-          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v0.5/StreamCenter-0.5.ipa",
-          "size": 987620,
-          "sha256": "f8a16024fa6db5de726c04078004532ef61f677d5a67a7d0a9cfa9bb9fb1159f",
-          "minOSVersion": "17.0"
-        },
-        {
-          "version": "0.4",
-          "buildVersion": "4",
-          "date": "2026-06-07",
-          "localizedDescription": "What's new in 0.4:\n• Removed the Source Stats screen and streamlined the app under the hood",
-          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v0.4/StreamCenter-0.4.ipa",
-          "size": 981577,
-          "sha256": "4cc01ede49be6b30839e2ffcb2332e973b00841dab26b7f95b61fd71d282140a",
-          "minOSVersion": "17.0"
-        },
-        {
-          "version": "0.3",
-          "buildVersion": "3",
-          "date": "2026-06-07",
-          "localizedDescription": "What's new in 0.3:\n• Fixed normal-mode streams getting stuck on the loading screen",
-          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v0.3/StreamCenter-0.3.ipa",
-          "size": 1000183,
-          "sha256": "9c4425192312aa16455bb1ef6bd83f465b3efcb70cf79b21aee8533aa34f7327",
-          "minOSVersion": "17.0"
-        },
-        {
-          "version": "0.2",
-          "buildVersion": "2",
-          "date": "2026-06-07",
-          "localizedDescription": "What's new in 0.2:\n• Smarter source matching — matches teams by abbreviation and learns each source's URL templates\n• Stops retrying sources that can't open a game, with live probe status so you can see what's working",
-          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v0.2/StreamCenter-0.2.ipa",
-          "size": 994305,
-          "sha256": "5396c9133d2cd9d0c512899cdd616f532789a21c87029c3f976d193579ad966b",
-          "minOSVersion": "17.0"
-        },
-        {
-          "version": "0.1",
+          "version": "1.0",
+          "date": "2026-05-15",
+          "size": 747962,
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v1.0/StreamCenter-1.0.ipa",
+          "localizedDescription": "HostFallback silently retries TLD variants when a source hostname fails DNS (content-block / carrier filter / Screen Time). Looser league matching catches /league/nflstreams, /nbaregular66, /mlbwildcard style slugs. Plus prior fixes: CachedAsyncImage, persistent TeamLogoStore, word-boundary team match, UFL\u2192Other, ESPN-aware classification, generic API discovery. No default sources \u2014 add your own.",
           "buildVersion": "1",
-          "date": "2026-06-07",
-          "localizedDescription": "First working public beta of StreamCenter. Watch live sports from any source you add — completely ad-free. No account, no subscription.",
-          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v0.1/StreamCenter-0.1.ipa",
-          "size": 918393,
-          "sha256": "bd1d26b107269fc34475b18a16d9a988c51408b86a76904275aaef08017ebae7",
           "minOSVersion": "17.0"
         }
       ],
@@ -99,7 +57,7 @@
     {
       "title": "StreamCenter is here!",
       "identifier": "streamcenter_launch",
-      "caption": "Watch live sports from any source — completely ad-free.",
+      "caption": "Watch live sports from any source \u2014 completely ad-free.",
       "date": "2026-05-14",
       "tintColor": "#E03030",
       "notify": true,
