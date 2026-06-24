@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.49",
+          "date": "2026-06-24",
+          "localizedDescription": "Major redesign: new TV-guide home screen. A built-in TV plays the best live game while a channel-style grid lays out live and upcoming games on a horizontally scrollable timeline (channels = leagues/sports, sized to each game's length). Tap any game to load it in place, channel-surf with the up/down controls, and go full screen natively. Finished games are now hidden, live games sort to the top, and the guide opens at the current time with a red now-line. Reorganized, TV-themed Settings with a new All Favorites page.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.49/StreamCenter-2.49.ipa",
+          "size": 2317963,
+          "sha256": "ed7f746341b8a74199fe78eb049174fc5be83e2aa929b09be0425a8401cc7b1a"
+        },
+        {
           "version": "2.48",
           "date": "2026-06-22",
           "size": 935583,
