@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.50",
+          "date": "2026-06-25",
+          "localizedDescription": "TV guide: in-progress and overtime games now show full team names and logos in wider, non-overlapping blocks. Channel up/down now follows the on-screen channel listing and pages the guide to keep the tuned-in channel in view.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.50/StreamCenter-2.50.ipa",
+          "size": 2390919,
+          "sha256": "f0c1ab902743b1e06fb41d1b8c214673d6ec85d39e296d2b078bab6f321a4f0b"
+        },
+        {
           "version": "2.49",
           "date": "2026-06-24",
           "localizedDescription": "Major redesign: new TV-guide home screen. A built-in TV plays the best live game while a channel-style grid lays out live and upcoming games on a horizontally scrollable timeline (channels = leagues/sports, sized to each game's length). Tap any game to load it in place, channel-surf with the up/down controls, and go full screen natively. Finished games are now hidden, live games sort to the top, and the guide opens at the current time with a red now-line. Reorganized, TV-themed Settings with a new All Favorites page.",
