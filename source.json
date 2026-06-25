@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.51",
+          "date": "2026-06-25",
+          "localizedDescription": "Internal stability fixes: resolved Swift 6 concurrency issues in the team database, scraper, and match-helpers, plus a Settings build fix. No user-facing changes.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.51/StreamCenter-2.51.ipa",
+          "size": 2416352,
+          "sha256": "706ceb0d08336c0bbbeae122b79efa7f1efe8dc103cc818381cfc6e905131179"
+        },
+        {
           "version": "2.50",
           "date": "2026-06-25",
           "localizedDescription": "TV guide: in-progress and overtime games now show full team names and logos in wider, non-overlapping blocks. Channel up/down now follows the on-screen channel listing and pages the guide to keep the tuned-in channel in view.",
