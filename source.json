@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.54",
+          "date": "2026-06-26",
+          "localizedDescription": "Fixes a bug where switching channels while casting could load the wrong game. Now only the channel you're on can take over the screen. Plus: while casting, a retro color-bars test pattern plays full-screen on your TV while the next stream is found, instead of hanging on the previous game.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.54/StreamCenter-2.54.ipa",
+          "size": 2471378,
+          "sha256": "514a01d0d3d218eb49cc44e90456b8a18a1fcbe93caf58423d2a1f080d8e05e8"
+        },
+        {
           "version": "2.53",
           "date": "2026-06-26",
           "localizedDescription": "Channel switching no longer drops AirPlay. The game keeps playing on your TV while the next channel loads, then swaps in automatically \u2014 no need to recast each time you change channels.",
