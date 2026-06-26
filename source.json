@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.55",
+          "date": "2026-06-26",
+          "localizedDescription": "Adds a shareable diagnostics export (Settings > Traversal Log > Export) to help debug wrong-stream/stuck-loading reports. AirPlay loading screen now shows the retro color bars with a 'Loading\u2026' label matching the in-app screen, is pre-generated at launch (no first-play hitch), and loops seamlessly for the entire load until the stream actually starts.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.55/StreamCenter-2.55.ipa",
+          "size": 2487502,
+          "sha256": "2031ac3d617839d15996f10decf46593d1122910ada193eec63b8e3acd17abbf"
+        },
+        {
           "version": "2.54",
           "date": "2026-06-26",
           "localizedDescription": "Fixes a bug where switching channels while casting could load the wrong game. Now only the channel you're on can take over the screen. Plus: while casting, a retro color-bars test pattern plays full-screen on your TV while the next stream is found, instead of hanging on the previous game.",
