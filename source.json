@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.52",
+          "date": "2026-06-26",
+          "localizedDescription": "AirPlay now casts video \u2014 not just audio \u2014 to your TV. Tap the AirPlay button in the player controls and pick an Apple TV; the game plays full-screen there while your phone becomes a remote with channel up/down and previous controls.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.52/StreamCenter-2.52.ipa",
+          "size": 2451093,
+          "sha256": "fea0d317c6566aac56f55cb84555ab209bc1b93ca7e91ed0873045ea6843fa2d"
+        },
+        {
           "version": "2.51",
           "date": "2026-06-25",
           "localizedDescription": "Internal stability fixes: resolved Swift 6 concurrency issues in the team database, scraper, and match-helpers, plus a Settings build fix. No user-facing changes.",
