@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.53",
+          "date": "2026-06-26",
+          "localizedDescription": "Channel switching no longer drops AirPlay. The game keeps playing on your TV while the next channel loads, then swaps in automatically \u2014 no need to recast each time you change channels.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.53/StreamCenter-2.53.ipa",
+          "size": 2452493,
+          "sha256": "39b4e1215d4e5361c3280970a01e07ca576458a3097973dc6e2059a620b9df00"
+        },
+        {
           "version": "2.52",
           "date": "2026-06-26",
           "localizedDescription": "AirPlay now casts video \u2014 not just audio \u2014 to your TV. Tap the AirPlay button in the player controls and pick an Apple TV; the game plays full-screen there while your phone becomes a remote with channel up/down and previous controls.",
