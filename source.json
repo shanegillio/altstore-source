@@ -25,6 +25,14 @@
       ],
       "versions": [
         {
+          "version": "2.56",
+          "date": "2026-06-26",
+          "localizedDescription": "Smarter team matching: adds cross-language/alternate-name handling (e.g. T\u00fcrkiye=Turkey, Espa\u00f1a=Spain) that feeds both the page walker and the URL resolver, plus a fuzzy best-match fallback so close spellings still find the right game. AirPlay loading screen fixes: corrects the upside-down video and 'Loading' text, and makes the color bars a long seamless clip so there's no looping playback timer.",
+          "downloadURL": "https://github.com/shanegillio/altstore-source/releases/download/v2.56/StreamCenter-2.56.ipa",
+          "size": 2501857,
+          "sha256": "ad04d37d0da5726dc4ea615f52190421a9d3bad02f0665650fa02df812583bf0"
+        },
+        {
           "version": "2.55",
           "date": "2026-06-26",
           "localizedDescription": "Adds a shareable diagnostics export (Settings > Traversal Log > Export) to help debug wrong-stream/stuck-loading reports. AirPlay loading screen now shows the retro color bars with a 'Loading\u2026' label matching the in-app screen, is pre-generated at launch (no first-play hitch), and loops seamlessly for the entire load until the stream actually starts.",
